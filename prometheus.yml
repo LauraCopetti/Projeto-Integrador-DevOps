@@ -8,7 +8,7 @@ scrape_configs:
       - targets: ['localhost:9090']
   - job_name: 'app-votacao'
     static_configs:
-      - targets: ['localhost:5000']
+      - targets: ['app-votacao:5000']
 
 
       
